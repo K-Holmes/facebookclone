@@ -59,3 +59,47 @@
   width: 125px;
   height: 50px;
 }
+
+.rightBar {
+  height: 675px;
+  width: 280px;
+  text-align: left;
+  position: absolute;
+  left: 1170px;
+  top: 64px;
+  background-color: #f2f2f2;
+  padding-left: 10px;
+}
+.onlineUsers {
+  left: 200px;
+}
+
+.imageListPad {
+  padding-left: 25px;
+}
+
+.bottomPadRemove {
+  padding: 0;
+  margin: 0;
+}
+
+.convoGrid {
+  display: grid;
+  grid-template-columns: max-content max-content;
+  grid-auto-rows: max-content;
+}
+
+.removePadding {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    padding-bottom: 5px;
+}
+
+.boldText {
+  font-weight: 500;
+}
+
+.shrinkText {
+  font-weight: 350;
+}
