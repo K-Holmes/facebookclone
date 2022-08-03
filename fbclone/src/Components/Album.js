@@ -11,7 +11,7 @@ import TextField from '@mui/material/TextField';
 import { styled } from '@mui/material/styles';
 // import SearchIcon from '@mui/icons-material/Search';
 // import InputAdornment from '@mui/material/InputAdornment';
-import Elmo from './avatar.PNG';
+import Fregni from './Fregni.png';
 // import { lightBlue } from '@mui/material/colors';
 
 
@@ -65,7 +65,7 @@ export default function Album() {
           <Badge className="cornerNotif" badgeContent={100} max={99} color="error">
           <NotificationsIcon sx={{ width: 24, height: 24 }}/>
           </Badge>
-          <Avatar className="cornerAvatar" alt="Fire Elmo" src={Elmo} sx={{ width: 24, height: 24 }}/>
+          <Avatar className="cornerAvatar" alt="Fregs" src={Fregni} sx={{ width: 24, height: 24 }}/>
           </div> 
 
           

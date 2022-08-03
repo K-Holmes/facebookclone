@@ -2,13 +2,13 @@ import React from "react";
 import { Avatar } from "@mui/material";
 import ImageList from '@mui/material/ImageList';
 import ImageListItem from '@mui/material/ImageListItem';
-import ProfilePic from './Ducks.JPG';
 import ImageOne from './PostOne.webp';
 import ImageTwo from './PostTwo.webp';
 import ImageThree from './PostThree.webp';
 import Bella from './Bella.png';
 import Pierce from './Pierce.png';
 import Ralph from './Ralph.png';
+import Adamant from './Adamant.png';
 import Divider from '@mui/material/Divider';
 
 const itemData = [
@@ -30,7 +30,7 @@ export default function Activitybar() {
     return (
          <><div className="rightBar"><div>
             <p className = "bottomPadRemove">Online Friends</p>
-            <Avatar className = "onlineUsers" alt="Remy Sharp" src={ProfilePic}/>
+            <Avatar className = "onlineUsers" alt="Remy Sharp" src={Adamant}/>
         </div>
             <div>
                 <p className="bottomPadRemove">Latest Photos</p>
