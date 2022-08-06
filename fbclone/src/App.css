@@ -103,3 +103,15 @@
 .shrinkText {
   font-weight: 350;
 }
+
+.cardSize {
+  max-width: 600px;
+  text-align: left;
+  top: 70px;
+  left: 400px;
+  position: absolute;
+}
+
+.headerbar {
+  background-color: #f2f2f2;
+}
